@@ -77,3 +77,4 @@ $ns at 624.5 "$ftp stop"
 $ns at 625 "finish"
 #Run simulator
 $ns run
+
