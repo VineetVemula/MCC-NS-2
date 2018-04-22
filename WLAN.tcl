@@ -48,8 +48,6 @@ $ns_ namtrace-all- wireless $namtrace $opt(x) $opt(y)
 set W1 [$ns_ node 0.0.0]
 set W2 [$ns_ node 0.0.1]
 set W3 [$ns_ node 0.0.2]
-
-DEPARTMENT OF COMPUTER ENGINEERING Experiment No. 5
 set W4 [$ns_ node 0.0.3]
 set W5 [$ns_ node 0.0.4]
 set W8 [$ns_ node 0.0.5]
@@ -130,8 +128,6 @@ $ns_ at 0.0 &quot;$W9 label W4&quot;
 $ns_ at 0.0 &quot;$W3 label R1&quot;
 $ns_ at 0.0 &quot;$W4 label R2&quot;
 $ns_ at 0.0 &quot;$W5 label R3&quot;
-
-DEPARTMENT OF COMPUTER ENGINEERING Experiment No. 5
 $ns_ at 0.0 &quot;$BS1 label BS1&quot;
 $ns_ at 0.0 &quot;$BS2 label BS2&quot;
 $ns_ at 0.0 &quot;$R1 label R1&quot;
@@ -178,8 +174,6 @@ Agent(BS1). \&quot;&quot;
 Agent(BS2). \&quot;&quot;
  set tcp4 [new Agent/TCP/Newreno]
  $tcp4 set packetSize_  $size
-
-DEPARTMENT OF COMPUTER ENGINEERING Experiment No. 5
  $ns_ attach-agent $W9  $tcp4
  set sink4 [new Agent/TCPSink]
  $ns_ attach-agent $R4  $sink4
