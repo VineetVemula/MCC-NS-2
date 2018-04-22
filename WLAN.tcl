@@ -10,8 +10,6 @@ set opt(ant)        Antenna/OmniAntenna            ;# antenna model
 set opt(ifqlen)         1000      ;# max packet in ifq
 set opt(nn)             4       ;# number of mobilenodes
 set opt(adhocRouting)   DSDV       ;# routing protocol
-
-DEPARTMENT OF COMPUTER ENGINEERING Experiment No. 5
 set opt(x)          100             ;# x coordinate of topology
 set opt(y)          100             ;# y coordinate of topology
 set opt(stop)       10              ;# time to stop simulation
