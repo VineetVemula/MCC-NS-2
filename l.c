@@ -33,7 +33,6 @@ int isOperator(char temp[])
 }
 
 int isDel(char temp[])
-
 {
 
 	if(strcmp(temp,";")==0||strcmp(temp,",")==0||strcmp(temp,"(")==0||strcmp(temp,")")==0||strcmp(temp,"{")==0||strcmp(temp,"}")==0)
